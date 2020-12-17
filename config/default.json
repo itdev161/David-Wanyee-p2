@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://DavidWanyee:zaQgnXLSrGXkADdL@cluster0.tzi1c.mongodb.net/test",
+    "jwtSecret": "maytheforcebewithyou"
+}

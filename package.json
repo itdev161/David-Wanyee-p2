@@ -1,0 +1,40 @@
+{
+  "name": "david-wanyee",
+  "version": "1.0.0",
+  "description": "First MongoDB Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js",
+    "server": "nodemon -r esm server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itdev161/David-Wanyee.git"
+  },
+  "author": "David Wanyee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itdev161/David-Wanyee/issues"
+  },
+  "homepage": "https://github.com/itdev161/David-Wanyee#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "interceptor": "^0.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.6",
+    "ngraph.graph": "^19.1.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
